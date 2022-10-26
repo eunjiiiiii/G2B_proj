@@ -38,8 +38,7 @@
   ### 1) 데이터 전처리(gower_preprocessing.ipynb)
 입찰공고별 투찰업체 내역 중 실제 낙찰이 이루어진 데이터만 추출하여 분석
   ### 2) 모델링
-- Gower Similarity
-
+Gower Similarit
   ### 3) 사용 예시(gower_similarity.py, gower_main.py)
   ### 4) 구체적 사용 예시
   ![pandas_gui](https://user-images.githubusercontent.com/47842737/197942580-c0e544ff-dd55-4cc1-84ee-260a181fb1ef.png)
