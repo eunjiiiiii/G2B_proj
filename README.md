@@ -19,7 +19,7 @@
 
 ## 1. 물품 영역의 적정 낙찰가 예측 서비스
   ### 1) 데이터 전처리(물품모델_검증용.ipynb)
-        물품 입찰분류별 투찰내역, 물품 입찰공고 내역, 물품 입찰분류별 진행 내역 데이터의 공통변수인 입찰공고번호를      기준으로 inner join한 후 분석 진행
+물품 입찰분류별 투찰내역, 물품 입찰공고 내역, 물품 입찰분류별 진행 내역 데이터의 공통변수인 입찰공고번호를      기준으로 inner join한 후 분석 진행
   ### 2) 모델링(물품_낙찰가예측모델.ipynb)
-        - pycaret AutoML 라이브러리 이용하여 성능이 좋은 상위 3개 모델 선택(LightGBM, XGBoost, RandomForest)
-        - GridSearchCV 모듈 사용하여 하이퍼파라미터 튜닝 후 비교
+- pycaret AutoML 라이브러리 이용하여 성능이 좋은 상위 3개 모델 선택(LightGBM, XGBoost, RandomForest)
+- GridSearchCV 모듈 사용하여 하이퍼파라미터 튜닝 후 비교
